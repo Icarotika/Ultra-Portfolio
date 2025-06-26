@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icarotika | Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Partículas de fundo -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">ICAROTIKA</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">HOME</a></li>
+          <li><a href="#sobre" class="nav-link">SOBRE</a></li>
+          <li><a href="#habilidades" class="nav-link">SKILLS</a></li>
+          <li><a href="#projetos" class="nav-link">PROJETOS</a></li>
+          <li><a href="#contato" class="nav-link">CONTATO</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="glitch" data-text="ICAROTIKA">ICAROTIKA</span>
+          </h1>
+          <div class="hero-subtitle">
+            <span class="typing-text">DESENVOLVEDOR FRONTEND</span>
+            <span class="cursor">|</span>
+          </div>
+          <p class="hero-description">
+            Criando experiências digitais únicas e inovadoras
+          </p>
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">VER PROJETOS</a>
+            <a href="#contato" class="btn btn-secondary">CONTATO</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="/foto.jpg" alt="Ícaro Romão" class="profile-img" />
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section sobre">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">SOBRE MIM</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="sobre-content">
+          <div class="sobre-text">
+            <div class="text-card">
+              <p>
+                Olá, meu nome é <span class="highlight">Ícaro Romão</span>,
+                também conhecido como <span class="highlight">Icarotika</span>.
+                Sou um desenvolvedor frontend apaixonado por criar experiências
+                incríveis na web.
+              </p>
+
+              <p>
+                Desde pequeno sempre tive interações com todo tipo de
+                tecnologias, sejam programas softwares, dispositivos hardwares
+                ou fazendo mods para algum jogo mobile.
+              </p>
+
+              <p>
+                Tenho experiência com <span class="tech-highlight">HTML</span>,
+                <span class="tech-highlight">CSS</span>,
+                <span class="tech-highlight">JavaScript</span> e frameworks
+                modernos como <span class="tech-highlight">React</span>. Sempre
+                em busca de aprender novas tecnologias e técnicas para melhorar
+                minhas habilidades.
+              </p>
+            </div>
+          </div>
+          <div class="sobre-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">Projetos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="1">0</div>
+              <div class="stat-label">Ano Experiência</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="100">0</div>
+              <div class="stat-label">% Dedicação</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section habilidades">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">HABILIDADES</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="html">
+            <div class="skill-icon">
+              <div class="skill-symbol">&lt;/&gt;</div>
+            </div>
+            <h3>HTML5</h3>
+            <p>Estruturação semântica e acessível de páginas web modernas</p>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="css">
+            <div class="skill-icon">
+              <div class="skill-symbol">{ }</div>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Design responsivo, animações e layouts modernos com Flexbox/Grid
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="js">
+            <div class="skill-icon">
+              <div class="skill-symbol">JS</div>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Interatividade, manipulação DOM e desenvolvimento de aplicações
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="git">
+            <div class="skill-icon">
+              <div class="skill-symbol">GIT</div>
+            </div>
+            <h3>Git/GitHub</h3>
+            <p>
+              Controle de versão e colaboração em projetos de desenvolvimento
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section projetos">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">MEUS PROJETOS</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card featured">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://icarotkcurriculo.netlify.app/"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <span>VER PROJETO</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">DESTAQUE</div>
+              <h3>Currículo Pessoal</h3>
+              <p>
+                Criação de um currículo responsivo e interativo utilizando
+                HTML5, CSS3 e JavaScript moderno com animações fluidas.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://ultrapixelart.netlify.app/"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <span>VER PROJETO</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">WEB APP</div>
+              <h3>Pixel Art Creator</h3>
+              <p>
+                Aplicação web interativa para criação de pixel arts com grade
+                customizável de até 35x35 pixels.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card coming-soon">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="coming-soon-text">
+                  <span>EM BREVE</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">PRÓXIMO</div>
+              <h3>Novo Projeto</h3>
+              <p>
+                Algo incrível está sendo desenvolvido. Aguarde para descobrir!
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">???</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contato">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">VAMOS TRABALHAR JUNTOS</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contato-content">
+          <div class="contato-info">
+            <h3>Entre em Contato</h3>
+            <p>
+              Pronto para criar algo incrível? Vamos conversar sobre seu próximo
+              projeto!
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:tikaucaro@gmail.com" class="contact-method">
+                <div class="contact-icon">@</div>
+                <div class="contact-text">
+                  <span>Email</span>
+                  <span>tikaucaro@gmail.com</span>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/Icarotika"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="contact-icon">GH</div>
+                <div class="contact-text">
+                  <span>GitHub</span>
+                  <span>@Icarotika</span>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/%C3%ADcaro-rom%C3%A3o-312512342/"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="contact-icon">IN</div>
+                <div class="contact-text">
+                  <span>LinkedIn</span>
+                  <span>Ícaro Romão</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Nome</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" required></textarea>
+              <label for="message">Mensagem</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <span>ENVIAR MENSAGEM</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2025 Ícaro Romão. Todos os direitos reservados.</p>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/Icarotika" target="_blank">GitHub</a>
+            <a
+              href="https://www.linkedin.com/in/%C3%ADcaro-rom%C3%A3o-312512342/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a href="mailto:tikaucaro@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
