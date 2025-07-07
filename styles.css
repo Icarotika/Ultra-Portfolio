@@ -680,7 +680,21 @@ body {
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, var(--primary-red), var(--dark-red));
+  background-image: url(images/embreve.png);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image1 {
+  height: 200px;
+  background-image: url(images/image.png);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image2 {
+  height: 200px;
+  background-image: url(images/image2.png);
   position: relative;
   overflow: hidden;
 }
